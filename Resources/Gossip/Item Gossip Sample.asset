@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3aad842f5046ab85cd4c498139ad92, type: 3}
+  m_Name: Item Gossip Sample
+  m_EditorClassIdentifier: 
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  shopType: 1
+  _text:
+  - _text:
+    - In this shop you find typical utility items to aid your quest.
+    - Some items are only available, after your party reached a certain level or explored
+      a specific dungeon.
+  - _text:
+    - "In diesem Laden findest Du typische Gegenst\xE4nde die Dir bei deiner Mission
+      helfen."
+    - "Manche Gegenst\xE4nde sind erst erh\xE4ltlich, nachdem deine Gruppe ein bestimmtes
+      Level erreicht oder einen bestimmten Dungoen erforscht hat."

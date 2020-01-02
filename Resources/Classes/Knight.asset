@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08d8bc98bb764e2eb30724f088846690, type: 3}
+  m_Name: Knight
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Knight
+  - Ritter
+  icon: {fileID: 21300000, guid: a7cafe6edad34c749638099ec9b95305, type: 3}
+  attributes:
+  - template: {fileID: 11400000, guid: 5c4571ade0e334587928f4a3ad37a780, type: 2}
+    value: 1
+    weight: 0.2
+  - template: {fileID: 11400000, guid: 4e791f4e4605b408e97f33368a096016, type: 2}
+    value: 1
+    weight: 0.2
+  - template: {fileID: 11400000, guid: 6aaae7382719b4029a3edcf5174b7c08, type: 2}
+    value: 1
+    weight: 0.15
+  - template: {fileID: 11400000, guid: fca9cf093043a4315aae6c89b6094381, type: 2}
+    value: 1
+    weight: 0.15
+  - template: {fileID: 11400000, guid: 2394cd8ee4a9b40dba364c6bce5b8316, type: 2}
+    value: 1
+    weight: 0.15
+  - template: {fileID: 11400000, guid: 681b0646016794707b80867521821f0e, type: 2}
+    value: 1
+    weight: 0.15
+  resistances:
+  - template: {fileID: 11400000, guid: b22c18befe5ae482294f0bb94bc8c016, type: 2}
+    value: 0.01
+    percentageBased: 0
+  - template: {fileID: 11400000, guid: 18363fdf3909747ae90d215d21086730, type: 2}
+    value: 0.01
+    percentageBased: 0
+  derivedStats:
+  - template: 0
+    value: 30
+  - template: 1
+    value: 0
+  - template: 9
+    value: 1
+  combatStyles: []
+  defaultAbilities: []
+  levelupAbilities: []

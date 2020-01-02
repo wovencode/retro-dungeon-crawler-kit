@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b3e1258291e47b5b65b5e0f33928a2, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  cutsceneContent:
+  - text:
+    - _text:
+      - Example Intro Text Block A - Part 1 of 3
+      - Beispiel Intro Text Block A - Teil 1 von 3
+    - _text:
+      - Example Intro Text Block A - Part 2 of 3
+      - Beispiel Intro Text Block A - Teil 2 von 3
+    - _text:
+      - Example Intro Text Block A - Part 3 of 3
+      - Beispiel Intro Text Block A - Teil 3 von 3
+    background: {fileID: 21300000, guid: dc572e75743b406b892955e53c0f1c65, type: 3}
+    foreground: {fileID: 21300000, guid: 1c286bb72aef548b5952a28d4245a524, type: 3}
+  - text:
+    - _text:
+      - Example Intro Text Block B - Part 1 of 3
+      - Beispiel Intro Text Block B - Teil 1 von 3
+    - _text:
+      - Example Intro Text Block B - Part 2 of 3
+      - Beispiel Intro Text Block B - Teil 2 von 3
+    - _text:
+      - Example Intro Text Block B - Part 3 of 3
+      - Beispiel Intro Text Block B - Teil 3 von 3
+    background: {fileID: 21300000, guid: dc572e75743b406b892955e53c0f1c65, type: 3}
+    foreground: {fileID: 21300000, guid: 1c286bb72aef548b5952a28d4245a524, type: 3}
+  - text:
+    - _text:
+      - Example Intro Text Block C - Part 1 of 3
+      - Beispiel Intro Text Block C - Teil 1 von 3
+    - _text:
+      - Example Intro Text Block C - Part 2 of 3
+      - Beispiel Intro Text Block C - Teil 2 von 3
+    - _text:
+      - Example Intro Text Block C - Part 3 of 3
+      - Beispiel Intro Text Block C - Teil 3 von 3
+    background: {fileID: 21300000, guid: dc572e75743b406b892955e53c0f1c65, type: 3}
+    foreground: {fileID: 21300000, guid: 1c286bb72aef548b5952a28d4245a524, type: 3}

@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9daed791ed24ccc8216a6b22fdbc74, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  seperators:
+    space: ' '
+    dash: ' - '
+    colon: ': '
+  basicVocabulary:
+    cannotSell: Cannot sell
+    cannotDismiss: Canott dismiss
+    cannotAfford: Cannot afford
+    maxStackReached: Max stack reached
+    purchased: purchased
+    hired: hired
+    dismissed: dismissed
+    levelUp: Level up
+    runFail: failed to run
+    runSuccess: fled from combat
+    damage: damage
+    requirementsNotMet: requirements not met
+    soldFor: sold for
+    saved: saved
+    noNeedToRest: no need to rest
+    lootFail: nothing found
+    toInteract: to interact
+    effects: Effects
+    causing: causing
+    returnToTown: return to town
+    affectedBy: affected by
+    unaffectedBy: unaffected by
+    areYouSure: are you sure you want to
+    yes: yes
+    no: no
+    battleFail: Your party is defeated
+    battleSuccess: Your party is victorious
+    turnStart: '''s turn begins'
+  namesVocabulary:
+    party: Party
+    worldmap: Worldmap
+    statistics: Statistics
+    requirements: Requirements
+    resistance: Resistance
+    element: Element
+    charclass: Character Class
+    species: Species
+    savegame: Save
+    loadgame: Load
+  skillVocabulary:
+    manaCost: Mana Cost
+    basePower: Base Power
+    bonusPower: Bonus Power
+    statInfluence: Stat Influence
+    statPower: Stat Power
+    attackType: Attack Type
+    recoveryType: Recovery Type
+    perLevel: per Lvl
+    useType: Use Type
+    useLocation: Use Location
+    useTarget: Use Target
+  basicDerivedStats:
+    level: Level
+    LV: LV
+    experience: Experience
+    XP: XP
+    nextLevelXP: NextXP
+    attributePoints: Attribute Pts
+    skillPoints: Skill Pts
+    health: Health
+    HP: HP
+    mana: Mana
+    MP: MP
+    fullAttack: Attack
+    abbrevAttack: AP
+    fullDefense: Defense
+    abbrevDefense: DP
+  statNames:
+  - statType: 0
+    abbrev: MHP
+    name: Max HP
+  - statType: 1
+    abbrev: MMP
+    name: Max MP
+  - statType: 2
+    abbrev: Acc
+    name: Accuracy
+  - statType: 3
+    abbrev: Res
+    name: Resistance
+  - statType: 4
+    abbrev: CR
+    name: Crit Rate
+  - statType: 5
+    abbrev: CF
+    name: Crit Factor
+  - statType: 6
+    abbrev: BR
+    name: Block Rate
+  - statType: 7
+    abbrev: BF
+    name: Block Factor
+  - statType: 8
+    abbrev: IN
+    name: Initiative
+  - statType: 9
+    abbrev: A#
+    name: Attacks
+  formationNames:
+    formation: Formation
+    movedTo: 'moved to '
+    front: Front
+    rear: Rear
+  commandNames:
+    dismiss: Dismiss
+    hire: HIre
+    sell: Sell
+    buy: Buy
+    use: Use
+    cast: Cast
+    equip: Equip
+    unequip: Unequip
+    rest: Rest
+    upgrade: Upgrade
+    trash: Trash
+    save: Save
+  buttonNames:
+    Status: Status
+    Inventory: Inventory
+    Equipment: Equipment
+    Skills: Skills
+    Options: Options
+    Minimap: Map
+    Save: Save
+    Load: Load
+    Quit: Quit
+    Credits: Credits
+    NewGame: New Game
+    Switch: Switch
+    cancel: Cancel
+    revert: Revert
+  actionNames:
+    gained: gained
+    recovered: recovered
+    learned: learned
+    uses: uses
+    defends: defends
+    attacks: attacks
+    takes: takes
+    casts: 
+  currencyNames:
+  - currencyType: 0
+    abbrev: None
+    name: None
+    icon: {fileID: 0}
+  - currencyType: 1
+    abbrev: G
+    name: Gold
+    icon: {fileID: 21300000, guid: 01f765898afcd4016bf5891cb6004b71, type: 3}
+  specialItemDescriptions:
+    PlayerExitBattle: Allows the party to safely flee from current battle.
+    PlayerExitDungeon: Teleports the party back to the last visited town.
+    PlayerWarpDungeon: Teleports the party to one already visited dungeon level.
+    CharacterLearnSkill: 'Allows one ally to learn the skill: '
+  useTypeDescriptions:
+  - useType: 0
+    description: None
+  - useType: 1
+    description: Is HP Not Max
+  - useType: 2
+    description: Is MP Not Max
+  - useType: 3
+    description: Is Stun
+  - useType: 4
+    description: Is Silence
+  - useType: 5
+    description: Is Deplete HP
+  - useType: 6
+    description: Is Deplete MP
+  - useType: 7
+    description: Is Alive
+  - useType: 8
+    description: Is Dead
+  useLocationDescriptions:
+  - useLocation: 0
+    description: None
+  - useLocation: 1
+    description: Everywhere
+  - useLocation: 2
+    description: In Battle
+  - useLocation: 3
+    description: In Normal Battle
+  - useLocation: 4
+    description: In Boss Battle
+  - useLocation: 5
+    description: In Battle And Dungeon
+  - useLocation: 6
+    description: In Normal Battle And Dungeon
+  - useLocation: 7
+    description: In Town
+  - useLocation: 8
+    description: In Worldmap
+  - useLocation: 9
+    description: In Town Or Worldmap
+  - useLocation: 10
+    description: In Dungeon
+  useTargetDescriptions:
+  - useTarget: 0
+    description: None
+  - useTarget: 1
+    description: At Self
+  - useTarget: 2
+    description: At Target Ally
+  - useTarget: 3
+    description: At Target Frontrow Ally
+  - useTarget: 4
+    description: At Target Rearrow Ally
+  - useTarget: 5
+    description: At Random Ally
+  - useTarget: 6
+    description: At Random Frontrow Ally
+  - useTarget: 7
+    description: At Random Rearrow Ally
+  - useTarget: 8
+    description: At All Allies
+  - useTarget: 9
+    description: At All Frontrow Allies
+  - useTarget: 10
+    description: At All Rearrow Allies
+  - useTarget: 11
+    description: At Target Enemy
+  - useTarget: 12
+    description: At Target Frontrow Enemy
+  - useTarget: 13
+    description: At Target Rearrow Enemy
+  - useTarget: 14
+    description: At Random Enemy
+  - useTarget: 15
+    description: At Random Frontrow Enemy
+  - useTarget: 16
+    description: At Random Rearrow Enemy
+  - useTarget: 17
+    description: At All Enemies
+  - useTarget: 18
+    description: At All Fronwrow Enemies
+  - useTarget: 19
+    description: At All Rearrow Enemies
+  - useTarget: 20
+    description: At All

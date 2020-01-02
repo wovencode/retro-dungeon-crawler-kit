@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 002ebb3200c946bfad24a6fce68826db, type: 3}
+  m_Name: War Hammer
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Warhammer
+  - Kriegshammer
+  icon: {fileID: 21300000, guid: 887eadbc705104d8b87780f569477085, type: 3}
+  _description: []
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses:
+  - {fileID: 11400000, guid: 753e31e66f4f45559c82ea237e572fe3, type: 2}
+  - {fileID: 11400000, guid: 5f056048c4054e6aaae688e9917284b9, type: 2}
+  _tradeCost:
+    currencyType: 1
+    buyCost: 800
+    sellValue: 390
+  statModifiers:
+    attributes: []
+    statistics:
+      percentageBased: 0
+      MaxHP: 0
+      MaxMP: 0
+      Accuracy: 0
+      Resistance: 0
+      CritRate: 0
+      CritFactor: 0
+      BlockRate: 0
+      BlockFactor: 0
+      Initiative: 0
+      Attacks: 0
+    other:
+      depleteHP: 0
+      depleteMP: 0
+      changeElement: 0
+      element: {fileID: 0}
+    special:
+      silence: 0
+      stun: 0
+    resistances: []
+    combatStyles: []
+  equipBuffType: []
+  _critSFX: {fileID: 0}
+  _hitSFX: {fileID: 0}
+  _missSFX: {fileID: 0}
+  _hitEffect: {fileID: 0}
+  _basePower: 1
+  _baseStat: {fileID: 0}
+  _statPower: 0
+  _attackType: {fileID: 11400000, guid: d573e6d8fbd9b4d11b2468585853ff10, type: 2}
+  _element: {fileID: 0}
+  _strongVsSpecies: {fileID: 0}
+  _useBuffType: []
+  _removeBuff: 0
+  _equipmentType: {fileID: 11400000, guid: 3ee0b6e8607f449ea8ba4e425bec758a, type: 2}

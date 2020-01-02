@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3a0ad3c2bb4c9ab7716411d7c54b12, type: 3}
+  m_Name: Moblin
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Moblin
+  - Moblin
+  icon: {fileID: 21300000, guid: 660fb4e46c3a42e183cc1501e8a1ca9c, type: 3}
+  _description: []
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  portraits:
+  - {fileID: 21300000, guid: 660fb4e46c3a42e183cc1501e8a1ca9c, type: 3}
+  - {fileID: 21300000, guid: f666a616a5a5a46b18c67056c8aafb32, type: 3}
+  - {fileID: 21300000, guid: c58237eaa291e49798647e8f4381a3c0, type: 3}
+  portraitHurt: {fileID: 0}
+  portraitHappy: {fileID: 0}
+  portraitDead: {fileID: 21300000, guid: 1f49f98cb15bb42fca6f6b678b459522, type: 3}
+  characterClass: {fileID: 11400000, guid: 753e31e66f4f45559c82ea237e572fe3, type: 2}
+  element: {fileID: 11400000, guid: d09779236a9224308890ebaa9850dd21, type: 2}
+  species: {fileID: 11400000, guid: b1369ebc76e174ecc98f796c8d1230f9, type: 2}
+  level: 2
+  defaultItems: []
+  defaultEquipment: []
+  defaultAbilities: []
+  defaultRank: 0
+  critSFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  missSFX: {fileID: 0}
+  hurtSFX: {fileID: 0}
+  dieSFX: {fileID: 0}
+  hitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 2}
+  prefab: {fileID: 1462108198943800, guid: 70c10ee92804475390f18e6669b06db3, type: 2}
+  lootContent:
+  - {fileID: 11400000, guid: 5565f7350faf94da8a24e298bd07156e, type: 2}
+  - {fileID: 11400000, guid: ad136c226ef4e416781ff1b430e8838a, type: 2}
+  - {fileID: 11400000, guid: 75f565460981d4d7eb0ad04fd11ab9fa, type: 2}
+  - {fileID: 11400000, guid: 643de9aec494e404eb61d98795a5faf4, type: 2}
+  - {fileID: 11400000, guid: 7a537086987d6472981b97e47dd74fce, type: 2}
+  experienceBonus: 5

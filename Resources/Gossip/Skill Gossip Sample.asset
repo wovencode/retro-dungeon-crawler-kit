@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3aad842f5046ab85cd4c498139ad92, type: 3}
+  m_Name: Skill Gossip Sample
+  m_EditorClassIdentifier: 
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  shopType: 3
+  _text:
+  - _text:
+    - This shop allows you to purchase items that teach new skills to a character.
+    - Learning skills via purchasable items is only one of several ways to learn.
+  - _text:
+    - "In diesem Laden gibt es Gegenst\xE4nde welche einem Charaktere neue F\xE4higkeiten
+      beibringen."
+    - "F\xE4higkeiten via k\xE4uflich erwerbbaren Gegenst\xE4nden zu lernen ist nur
+      eine von vielen M\xF6glichkeiten."

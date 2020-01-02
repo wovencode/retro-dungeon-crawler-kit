@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74406bd4cdb4009a726f8f0d11a6c53, type: 3}
+  m_Name: Hiro
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Hiro
+  - Hiro
+  icon: {fileID: 21300000, guid: 452e763606e543ddabe30b7d59635732, type: 3}
+  _description: []
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  portraits:
+  - {fileID: 21300000, guid: 452e763606e543ddabe30b7d59635732, type: 3}
+  - {fileID: 21300000, guid: eed406bfb6aa240a486cee833fb98d30, type: 3}
+  - {fileID: 21300000, guid: 2a5d8e4b0d47d48fa8459604992f3743, type: 3}
+  portraitHurt: {fileID: 0}
+  portraitHappy: {fileID: 0}
+  portraitDead: {fileID: 21300000, guid: 1f49f98cb15bb42fca6f6b678b459522, type: 3}
+  characterClass: {fileID: 11400000, guid: 707fe40aaa3f4b7ca400650aa3cfca35, type: 2}
+  element: {fileID: 11400000, guid: d09779236a9224308890ebaa9850dd21, type: 2}
+  species: {fileID: 11400000, guid: 540ef6555d10e49d5a66759beaff80f6, type: 2}
+  level: 4
+  defaultItems: []
+  defaultEquipment:
+  - {fileID: 11400000, guid: 8b3683acf2728481aaa990e4f293a304, type: 2}
+  - {fileID: 11400000, guid: c46b9c8e62a7c458e96a8c2efba27434, type: 2}
+  defaultAbilities:
+  - {fileID: 0}
+  defaultRank: 0
+  critSFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  missSFX: {fileID: 0}
+  hurtSFX: {fileID: 0}
+  dieSFX: {fileID: 0}
+  hitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 2}
+  _tradeCost:
+    currencyType: 0
+    buyCost: 0
+    sellValue: 0

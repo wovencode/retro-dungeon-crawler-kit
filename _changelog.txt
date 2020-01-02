@@ -1,0 +1,84 @@
+RETRO DUNGEON CRAWLER KIT - CHANGELOG
+==========================================================================================
+
+Release 0.1.0
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Early Bird Release - First public Release
+
+Update 0.1.1
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Fixed Nil Error in intro text (due to missing translation entries)
++ Fixed Nil Error in loot window (due to missing translation entries)
++ Fixed Nil Error on Hero Panel (object has already been destroyed)
++ Fixed Nil Error on Monster Panel (object has already been destroyed)
++ Fixed Error that allowed dead monsters to attack
+
+Update 0.1.2
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Fixed a bug where skills in the menu appeared off-position
++ Fixed a bug where using a skill resulted in a NIL exception due to missing language
+
++ Assigned "Defend" Status to battle manager (defending had no effect previously)
++ Assigned "Heal" default ability to "Salahd" (was empty before)
++ Assigned "Fireball" default abiltiy to "Piera" (was empty before)
++ Added "base" and "bonus" mana cost to both "Heal" and "Fireball" skills (was 0 before)
++ Added 10 base "max MP" to "Mage" and "Priest" classes (was 0 before)
++ Added base equipment to "Hiero" and "Salahd"
++ Added several names in german + english
+(those are just simply assignments, no real updates or fixes, to make the example gameplay more understandable)
+
++ Audio Manager -> Renamed "JingleVictoryEpic" to "JingleVictoryBoss" as its more obvious
+(you might have to re-assign your audio clip here, done in 1 click)
+
++ added a empty icon to represent the skills for now
+
++ Removed several obsolete Debug Log outputs and outdated comments etc.
+
++ Removed "german" as default language for now, as its way easier to maintain
+(full multi language support is still available of course)
+
++ Added Changelog txt file and moved version to that file instead of inside the readme
+
+Update 0.1.3
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Added new NIL checks and Debug Log Warnings when language names/descriptions are missing
++ Fixed a few typos in the tooltip window
+
++ Fixed mixed up german/english welcome message in the Item Shop
++ Added names in german/english to default weapons/armor
++ Added a few base stats to weapons/armor
+
+Update 0.1.4
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Added a note to both the "ReadMe" and the online "Documentation" about how to setup the
+walls correctly (add a layer "wall" and assign it to all wall prefabs, as unity package
+export does not export layers correctly).
+
++ Reordered the "Upgrade Attribute" buttons in the character status screen (the order is
+fixed and must be changed manually if you change the attributes used in your game).
+
++ Added a "Skip" button to the "Cutscene" screen to skip all texts.
+
+Update 0.1.5
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Fixed a bug where items could not be activated, even if they should
++ Fixed a bug where monsters would always attack the first hero in the party
++ Fixed a bug where heroes are still able to attack, even if dead
+
+Update 0.1.6
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Fixed a bug that messed up being able to equip/unequip items
+
+Update 0.1.7
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ Fixed a bug that messed up exporting tilemaps
+
+Update 0.1.8
+- - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
++ [FIX] Wrong target names used in the console log.
++ [FIX] Dead heroes still gained exp and therefore levelled up.
++ [FIX] Removed, Dead characters still added "turn begins" to the log.
++ [FIX] Removed, Dead characters still added "passes the turn" to the log.
++ [FIX] Random monster group selection was messed up.
++ [FIX] Random monster group amount was messed up.
++ [ADD] Added min/max amount to battles started via floor tiles or events. also added option to scale the amount of monsters with party members.

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74406bd4cdb4009a726f8f0d11a6c53, type: 3}
+  m_Name: Piera
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Piera
+  - Piera
+  icon: {fileID: 21300000, guid: 01f2e01f5c09472e852ff423de03aa49, type: 3}
+  _description: []
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  portraits:
+  - {fileID: 21300000, guid: 01f2e01f5c09472e852ff423de03aa49, type: 3}
+  - {fileID: 21300000, guid: 891ae03b8dc854d389a3f21c8aa35468, type: 3}
+  - {fileID: 21300000, guid: 976ed2f869c3b4904bd887bd1b72228e, type: 3}
+  portraitHurt: {fileID: 0}
+  portraitHappy: {fileID: 0}
+  portraitDead: {fileID: 21300000, guid: 1f49f98cb15bb42fca6f6b678b459522, type: 3}
+  characterClass: {fileID: 11400000, guid: 734edf1d290a4a08b068cc40a3d08435, type: 2}
+  element: {fileID: 0}
+  species: {fileID: 0}
+  level: 4
+  defaultItems: []
+  defaultEquipment: []
+  defaultAbilities:
+  - {fileID: 11400000, guid: dc09ce47faf8e4778a380fb33bf797fd, type: 2}
+  defaultRank: 0
+  critSFX: {fileID: 0}
+  hitSFX: {fileID: 0}
+  missSFX: {fileID: 0}
+  hurtSFX: {fileID: 0}
+  dieSFX: {fileID: 0}
+  hitEffect: {fileID: 1570927096764274, guid: 643639841fb531e4ba8097fed4eb9ac7, type: 2}
+  _tradeCost:
+    currencyType: 0
+    buyCost: 0
+    sellValue: 0

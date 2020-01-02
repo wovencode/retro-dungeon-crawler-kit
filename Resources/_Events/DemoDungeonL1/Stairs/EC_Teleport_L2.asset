@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2518f2a6c79e44af7b0e9e344c03f18a, type: 3}
+  m_Name: EC_Teleport_L2
+  m_EditorClassIdentifier: 
+  eventNodes:
+  - icon: {fileID: 0}
+    text: You see stairs in front of you, climb?
+    NoAutoStart: 0
+    mainCondition: {fileID: 0}
+    choiceConditions: []
+    choiceLabels:
+    - Yes
+    - No
+    choiceActions:
+    - {fileID: 11400000, guid: 979e08fc4980e4f6fb8ddefcd2090eb3, type: 2}
+    - {fileID: 11400000, guid: c184dd4b8839c49d0834491cda14396a, type: 2}

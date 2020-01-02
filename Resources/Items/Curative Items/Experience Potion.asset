@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1a6897dc3c45258da5ce5db6cf285d, type: 3}
+  m_Name: Experience Potion
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Experience Potion
+  - Erfahrungs Trank
+  icon: {fileID: 21300000, guid: 7e88a0847f01a4a379ef66e757e4f7e8, type: 3}
+  _description:
+  - Grants target ally small amount of experience.
+  - "Gew\xE4hrt einem Verb\xFCndeten eine kleine Menge Erfahrung."
+  restrictions:
+    exclude: 1
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses:
+  - {fileID: 11400000, guid: 707fe40aaa3f4b7ca400650aa3cfca35, type: 2}
+  - {fileID: 11400000, guid: 734edf1d290a4a08b068cc40a3d08435, type: 2}
+  - {fileID: 11400000, guid: 5f056048c4054e6aaae688e9917284b9, type: 2}
+  - {fileID: 11400000, guid: 753e31e66f4f45559c82ea237e572fe3, type: 2}
+  _tradeCost:
+    currencyType: 1
+    buyCost: 0
+    sellValue: 0
+  _MaxStack: 99
+  _useType: 7
+  _useLocation: 1
+  _targetType: 2
+  _DepleteOnUse: 1
+  _useSFX: {fileID: 0}
+  _useEffect: {fileID: 0}
+  _basePowerPercentage: 0
+  _basePower: 20
+  _baseStat: {fileID: 0}
+  _statPower: 0
+  _useBuffType: []
+  _removeBuff: 0
+  _recoveryType: 3
+  _recoveryStat: {fileID: 0}

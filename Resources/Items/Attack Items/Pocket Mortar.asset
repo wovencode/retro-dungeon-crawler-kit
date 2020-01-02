@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2164f69d1ccb4461994bda137f346f45, type: 3}
+  m_Name: Pocket Mortar
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: 1a006a7d944e8441d9a38c36631a810c, type: 3}
+  description: This portable Mortar carries a explosive load, capable of tearing most
+    enemies apart. Its only drawback is the limited amount of ammunition.
+  restrictions:
+    available: 1
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  statRequirements:
+    Str: 0
+    Vit: 0
+    Int: 0
+    Agi: 0
+    Wis: 0
+    Dex: 0
+  characterClasses: []
+  _cost:
+    currencyType: 1
+    buyCost: 75
+    sellValue: 50
+  _MaxStack: 99
+  _useType: 8
+  _useLocation: 2
+  _targetType: 7
+  _DepleteOnUse: 1
+  _critSFX: {fileID: 0}
+  _hitSFX: {fileID: 0}
+  _missSFX: {fileID: 0}
+  _useText: 
+  _useEffect: {fileID: 0}
+  _baseEfficiency: 25
+  _baseStat: 0
+  _statEfficiency: 0
+  _attackType: 2
+  _elementType: 1
+  _useBuffType: []
+  _removeBuff: 0
+  _setDefending: 0
+  _setFocused: 0
+  _setPrepared: 0
+  _setAiming: 0

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3aad842f5046ab85cd4c498139ad92, type: 3}
+  m_Name: Equipment Gossip Sample
+  m_EditorClassIdentifier: 
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  shopType: 2
+  _text:
+  - _text:
+    - Crit Rate increases the chance to land a critical hit, while Crit Factor increases
+      the extra damage a critical hit deals.
+    - Certain types of equipment have minimum attribute requirements, while others
+      can only be equipped by certain classes.
+  - _text:
+    - "Krit Rate erh\xF6ht die Chance einen kritischen Treffer zu landen. Der Krit
+      Faktor dagegen erh\xF6ht den extra Schaden eines kritischen Treffers."
+    - "Bestimmte Ausr\xFCstungsgegenst\xE4nde haben Attributs- Mindestanforderungen,
+      w\xE4hrend andere nur von bestimmten Klassen getragen werden k\xF6nnen."

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3aad842f5046ab85cd4c498139ad92, type: 3}
+  m_Name: Inn Gossip Sample
+  m_EditorClassIdentifier: 
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  shopType: 4
+  _text:
+  - _text:
+    - Staying at the Inn is the cheapest way to recover health and mana, it also removes
+      most status effects.
+    - Dead party members cannot recover at the Inn and must be revived first using
+      the appropiate curative item.
+  - _text:
+    - "In der Herberge zu \xFCbernachten ist der g\xFCnstigste Weg Leben und Mana
+      zu regenerieren. Es entfernt auch die meisten Status Effekte."
+    - "Tote Gruppenmitglieder k\xF6nnen sich nicht in der Herberge erholen und m\xFCssen
+      erst mit einem geeignetem Heil Gegenstand wiederbelebt werden."

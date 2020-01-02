@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b42d5c365ba24aebad577ee049951a87, type: 3}
+  m_Name: Gold
+  m_EditorClassIdentifier: 
+  _fullName: []
+  icon: {fileID: 0}
+  _description:
+  - This is a dummy item - name/description is not required as it does not appear
+    anywhere!
+  - This is a dummy item - name/description is not required as it does not appear
+    anywhere!
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses: []
+  currencyType: 1

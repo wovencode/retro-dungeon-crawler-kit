@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae324d6d003145809c0aef111e19318, type: 3}
+  m_Name: CHEST00
+  m_EditorClassIdentifier: 
+  editorIcon: {fileID: 21300000, guid: b6d48963be06140279f1ad09faecc39a, type: 3}
+  floorPrefab: {fileID: 100000, guid: b2ed52d3147ab472d9983bd5a34fdaf3, type: 2}
+  ceilingPrefab: {fileID: 100000, guid: b94978c7d949457c9adda8ac082e8270, type: 2}
+  facingDirection: 3
+  objectPrefab: {fileID: 1596257022184460, guid: a5526f6fd7d54c5e98e52a571f451a64,
+    type: 2}
+  offsetZ: 0
+  minimapIcon: {fileID: 2800000, guid: ea986ce679564407bb4c834ca5f046fa, type: 3}
+  facePlayer: 0
+  defaultImage: {fileID: 21300000, guid: a05214da4d0c4fb8bca885832b3c1ac2, type: 3}
+  interactedImage: {fileID: 21300000, guid: a51e98c64db5448eaea328f3d45e7d5c, type: 3}
+  HideOnCompletion: 0
+  IsRepeatable: 0
+  StartsDeactivated: 0
+  events:
+  - icon: {fileID: 21300000, guid: a05214da4d0c4fb8bca885832b3c1ac2, type: 3}
+    text: You found a chest! Do you want to open it?
+    NoAutoStart: 0
+    mainCondition: {fileID: 0}
+    choiceConditions:
+    - {fileID: 0}
+    - {fileID: 0}
+    choiceLabels:
+    - Yes
+    - No
+    choiceActions:
+    - {fileID: 11400000, guid: 1602696bd73b2463bb0b0f913cdc0f57, type: 2}
+    - {fileID: 11400000, guid: c184dd4b8839c49d0834491cda14396a, type: 2}

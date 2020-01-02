@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3aad842f5046ab85cd4c498139ad92, type: 3}
+  m_Name: Item Curative Gossip Sample
+  m_EditorClassIdentifier: 
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  shopType: 6
+  _text:
+  - _text:
+    - This shop provides your party with all kinds of healing items.
+    - You cannot apply an item that recovers health or mana to a character who is
+      already at full health or mana.
+  - _text:
+    - "Dieser Laden versorgt deine Gruppe mit allerlei heilenden Gegenst\xE4nden."
+    - "Du kannst keinen Heil Gegenstand auf einen Charakter anwenden, dessen Leben
+      oder Mana bereits vollst\xE4ndig aufgef\xFCllt ist."

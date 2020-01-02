@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60f1816c639645d0916149b245d1c87b, type: 3}
+  m_Name: Unnamed ItemAbility
+  m_EditorClassIdentifier: 
+  icon: {fileID: 0}
+  Description: 
+  restrictions:
+    available: 0
+    RequiredExploredDungeon: {fileID: 0}
+    RequiredExploredTown: {fileID: 0}
+    minLevel: 0
+    maxLevel: 0
+  _GoldCost: 0
+  _MaxStack: 0
+  _DepleteOnUse: 0
+  _Requirements:
+    Str: 0
+    Vit: 0
+    Int: 0
+    Agi: 0
+    Wis: 0
+    Dex: 0
+  _characterClasses: []
+  learnedAbility: {fileID: 0}

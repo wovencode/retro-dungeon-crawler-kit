@@ -1,0 +1,25 @@
+REFERENCES - INDICATION OF SOURCE
+==========================================================================================
+
+All media material packed with this asset is either our own creation or freely available
+as open-source and used with permission by their respective authors.
+
+* Unity Tilemap is open-source available under the MIT license
+https://github.com/toinfiniityandbeyond/unity-tilemap
+
+* The Font used is "Droid Sans" licensed under the Apache license
+
+* Environment & Character Art by Justin Nichol
+Free for personal and commercial use.
+https://opengameart.org/
+
+* Item Icons by Clint Bellanger (Public Domain)
+https://opengameart.org/content/flare-weapon-icons-2
+
+* Environment Textures by Spiralgraphics (free both for personal & commercial use)
+http://spiralgraphics.biz/packs/usage_rights.htm
+
+* Interface and GUI icons have been taken from game-icons.net (Public Domain)
+http://www.game-icons.net
+
+==========================================================================================

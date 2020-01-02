@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cfae72c3edf4c51a3dc8247e4c0d383, type: 3}
+  m_Name: Scroll of Escape
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Scroll of safe Escape
+  - Rolle der sicheren Flucht
+  icon: {fileID: 21300000, guid: f1eec030d6b7747b290fa5a2fa8c7b98, type: 3}
+  _description:
+  - This scroll can be used once to safely let the party escape from the current battle.
+  - Diese Schriftrolle kann einmal eingesetzt werden damit die Gruppe sicher dem derzeitigen
+    Kampf entfliehen kann.
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 1
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses: []
+  _tradeCost:
+    currencyType: 1
+    buyCost: 25
+    sellValue: 10
+  _MaxStack: 99
+  _useLocation: 2
+  _DepleteOnUse: 1
+  _useSFX: {fileID: 0}
+  _useText: The party safely escapes!
+  _hitEffect: {fileID: 0}
+  _useEffectType: 1

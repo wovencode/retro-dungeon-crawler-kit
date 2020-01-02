@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b1a6897dc3c45258da5ce5db6cf285d, type: 3}
+  m_Name: Lesser Mana Potion
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Lesser Nana Potion
+  - Schwacher Manatrank
+  icon: {fileID: 21300000, guid: 53d4be61fd92d40db80f995179f76304, type: 3}
+  _description:
+  - Target ally recovers a small amount of mana.
+  - "Ein Verb\xFCndeter heilt eine kleine Menge Mana."
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses:
+  - {fileID: 11400000, guid: 707fe40aaa3f4b7ca400650aa3cfca35, type: 2}
+  - {fileID: 11400000, guid: 734edf1d290a4a08b068cc40a3d08435, type: 2}
+  - {fileID: 11400000, guid: 5f056048c4054e6aaae688e9917284b9, type: 2}
+  - {fileID: 11400000, guid: 753e31e66f4f45559c82ea237e572fe3, type: 2}
+  _tradeCost:
+    currencyType: 1
+    buyCost: 35
+    sellValue: 15
+  _MaxStack: 99
+  _useType: 2
+  _useLocation: 1
+  _targetType: 2
+  _DepleteOnUse: 1
+  _useSFX: {fileID: 0}
+  _useEffect: {fileID: 0}
+  _basePowerPercentage: 0
+  _basePower: 20
+  _baseStat: {fileID: 0}
+  _statPower: 0
+  _useBuffType: []
+  _removeBuff: 0
+  _recoveryType: 2
+  _recoveryStat: {fileID: 0}

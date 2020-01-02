@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8dc47126326496592777e0c724ee5ab, type: 3}
+  m_Name: WALL04
+  m_EditorClassIdentifier: 
+  editorIcon: {fileID: 21300000, guid: d3fc34b93ac514ae29edc1fc2004ce26, type: 3}
+  editorType: 2
+  floorPrefab: {fileID: 1242115124948778, guid: b1f9c998993bb48e59517d3065e80e2b,
+    type: 2}
+  ceilingPrefab: {fileID: 100000, guid: b94978c7d949457c9adda8ac082e8270, type: 2}
+  facingDirection: 0
+  wallPrefab: {fileID: 0}

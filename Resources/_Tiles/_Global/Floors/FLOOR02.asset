@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1888c6b76d7b421196414442bd3504a8, type: 3}
+  m_Name: FLOOR02
+  m_EditorClassIdentifier: 
+  editorIcon: {fileID: 21300000, guid: 5032589f2f01846be98768c55bcf2244, type: 3}
+  editorType: 1
+  floorPrefab: {fileID: 100000, guid: b2ed52d3147ab472d9983bd5a34fdaf3, type: 2}
+  ceilingPrefab: {fileID: 100000, guid: b94978c7d949457c9adda8ac082e8270, type: 2}
+  facingDirection: 0
+  monsterPoolID: 0
+  encounterRateModifier: 0
+  monsterAmountModifier: 0
+  monsterLevelModifier: 0

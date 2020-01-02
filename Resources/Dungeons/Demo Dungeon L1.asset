@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0475647aca864cb18e5d3715b718acbf, type: 3}
+  m_Name: Demo Dungeon L1
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Demo Dungeon L1
+  - Demo Dungeon L1
+  music: {fileID: 0}
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 0
+    maxLevel: 0
+  monsterLevel: 0
+  encounterRate: 0.1
+  battleBackground: {fileID: 0}
+  mapFile: {fileID: 11400000, guid: 8d014e97881c84e859a1d59b6267ae81, type: 2}
+  monsterEncounters:
+  - monsterEncounter:
+    - {fileID: 11400000, guid: aad44b4e43afc4839aea887c41700311, type: 2}
+    - {fileID: 11400000, guid: 41a21d144b2c9459caf00bc34da5bd80, type: 2}
+  - monsterEncounter:
+    - {fileID: 11400000, guid: aad44b4e43afc4839aea887c41700311, type: 2}
+    - {fileID: 11400000, guid: 41a21d144b2c9459caf00bc34da5bd80, type: 2}
+  - monsterEncounter:
+    - {fileID: 11400000, guid: aad44b4e43afc4839aea887c41700311, type: 2}
+    - {fileID: 11400000, guid: 41a21d144b2c9459caf00bc34da5bd80, type: 2}
+    - {fileID: 11400000, guid: 41a21d144b2c9459caf00bc34da5bd80, type: 2}

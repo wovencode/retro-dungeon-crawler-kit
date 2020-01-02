@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 465bcc6693e74a1bbda45653035b7bad, type: 3}
+  m_Name: Peasants Cloth
+  m_EditorClassIdentifier: 
+  _fullName:
+  - Peasants Cloth
+  - Normale Kleidung
+  icon: {fileID: 21300000, guid: d87243cde20ad48149b153b4a8927075, type: 3}
+  _description: []
+  restrictions:
+    exclude: 0
+    RequiresExploredDungeons: []
+    requiresAllDungeons: 0
+    RequiresExploredTowns: []
+    requiresAllTowns: 0
+    RequiresTownsAndDungeons: 0
+    minLevel: 1
+    maxLevel: 0
+  statRequirements:
+    attributeRequirements: []
+  characterClasses:
+  - {fileID: 11400000, guid: 707fe40aaa3f4b7ca400650aa3cfca35, type: 2}
+  - {fileID: 11400000, guid: 753e31e66f4f45559c82ea237e572fe3, type: 2}
+  - {fileID: 11400000, guid: 734edf1d290a4a08b068cc40a3d08435, type: 2}
+  - {fileID: 11400000, guid: 5f056048c4054e6aaae688e9917284b9, type: 2}
+  _tradeCost:
+    currencyType: 1
+    buyCost: 75
+    sellValue: 35
+  statModifiers:
+    attributes:
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    - template: {fileID: 0}
+      value: 0
+      percentageBased: 0
+    statistics:
+      percentageBased: 0
+      MaxHP: 0
+      MaxMP: 0
+      Accuracy: 0
+      Resistance: 0
+      CritRate: 0
+      CritFactor: 0
+      BlockRate: 0
+      BlockFactor: 0
+      Initiative: 0
+      Attacks: 0
+    other:
+      depleteHP: 0
+      depleteMP: 0
+      changeElement: 0
+      element: {fileID: 0}
+    special:
+      silence: 0
+      stun: 0
+    resistances: []
+    combatStyles:
+    - template: {fileID: 11400000, guid: d573e6d8fbd9b4d11b2468585853ff10, type: 2}
+      attackValue: 0
+      defenseValue: 1
+      percentageBased: 0
+  equipBuffType: []
+  _equipmentType: {fileID: 11400000, guid: 609028da72dd64296af579dfa6e5d785, type: 2}
